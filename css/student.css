@@ -1,0 +1,55 @@
+/* Student Login and Sign Up Pages */
+.login-section, .signup-section {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f08a5d;
+    border-radius: 5px;
+    border: none;
+}
+
+form button:hover {
+    background-color: #f76c5e;
+}
+
+/* Links */
+p a {
+    color: #f08a5d;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #f76c5e;
+}
