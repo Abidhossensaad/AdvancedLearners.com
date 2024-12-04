@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/courses.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1><a href="index.html">Advanced Learners</a></h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="cart.html" class="btn-login">Cart</a></li>
+                    <li><a href="student-login.html" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Courses Section -->
+    <section class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-grid">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <h3>Photography Course</h3>
+                <p>Master the art of photography with our comprehensive course.</p>
+                <p><strong>Price:</strong> BDT 400</p>
+                <div class="course-footer">
+                    <button class="btn" onclick="addToCart('Photography Course', 400)">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card">
+                <h3>Graphic Design</h3>
+                <p>Learn the essentials of graphic design and freelancing.</p>
+                <p><strong>Price:</strong> BDT 400</p>
+                <div class="course-footer">
+                    <button class="btn" onclick="addToCart('Graphic Design', 400)">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course-card">
+                <h3>Advanced English Speaking</h3>
+                <p>Enhance your fluency in English with practical lessons.</p>
+                <p><strong>Price:</strong> BDT 500</p>
+                <div class="course-footer">
+                    <button class="btn" onclick="addToCart('Advanced English Speaking', 500)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Advanced Learners. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>

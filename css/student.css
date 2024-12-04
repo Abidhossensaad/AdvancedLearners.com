@@ -1,0 +1,117 @@
+/* Student Sign-Up Section */
+.signup-section {
+    max-width: 500px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.signup-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-section form label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.signup-section form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.signup-section form button {
+    background-color: #f08a5d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-section form button:hover {
+    background-color: #f76c5e;
+}
+
+.signup-section p a {
+    color: #f08a5d;
+    text-decoration: none;
+}
+
+.signup-section p a:hover {
+    color: #f76c5e;
+}
+
+/* Student Login Section */
+.login-section {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section form label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-section form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.login-section form button {
+    background-color: #f08a5d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login-section form button:hover {
+    background-color: #f76c5e;
+}
+
+.login-section p a {
+    color: #f08a5d;
+    text-decoration: none;
+}
+
+.login-section p a:hover {
+    color: #f76c5e;
+}
